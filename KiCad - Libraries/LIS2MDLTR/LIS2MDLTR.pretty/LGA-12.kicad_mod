@@ -1,0 +1,201 @@
+(footprint "LGA-12"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "LGA-12")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at -0.38705 -0.06275 0)
+		(layer "F.SilkS")
+		(uuid "88c2f923-f0d4-4048-a284-590f677e7ecb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "LGA-12"
+		(at -0.38705 -0.06275 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6118f445-b4f1-4966-9623-bf91024e2313")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d655da1-32d3-44fe-ad2b-936f5eef78bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7493382f-d07e-42bc-9e11-dc06fcf39e33")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -1.368 -0.748)
+		(end -1.368 -0.723)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0b1f9252-d514-4819-8e9a-de4d568e8a1a")
+	)
+	(fp_line
+		(start -1 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bbbfcd07-bb1e-4874-aa7b-25f09581c143")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a421f63b-eeb2-487d-9616-75ae6da5b59b")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "41cfe185-0d9e-4483-864e-8ac0a0e90fb0")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f57d785-3531-40cd-b9ac-9d9bca2dea9e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.38705 -0.06275 0)
+		(layer "F.Fab")
+		(uuid "b23c3ae4-4522-4174-a5cb-c31b7c5ee205")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8 -0.75 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "22566c83-9801-44b3-8a1c-ff862cb1a43c")
+	)
+	(pad "2" smd rect
+		(at -0.8 -0.25 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "15d6a274-0104-4a47-9de1-65f70290231b")
+	)
+	(pad "3" smd rect
+		(at -0.8 0.25 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "394814ab-e4da-45a7-8e9d-8527cd8df7f3")
+	)
+	(pad "4" smd rect
+		(at -0.8 0.75 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8125adcd-1c66-4aa5-b8d0-b39f461a43fc")
+	)
+	(pad "5" smd rect
+		(at -0.25 0.75 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2ea99412-a559-4af1-95c6-fb8fdb76bd99")
+	)
+	(pad "6" smd rect
+		(at 0.25 0.75 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b618d222-526e-4f12-8da0-21fbbd1a4ded")
+	)
+	(pad "7" smd rect
+		(at 0.8 0.75 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b82e9c69-6386-4802-b622-70914c0fb3dc")
+	)
+	(pad "8" smd rect
+		(at 0.8 0.25 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c39ffa05-6e8b-4ddf-a2b6-84af1a3b3447")
+	)
+	(pad "9" smd rect
+		(at 0.8 -0.25 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "36d4d6bc-7b3d-4703-855b-9ff41859d020")
+	)
+	(pad "10" smd rect
+		(at 0.8 -0.75 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2b7c118a-dee0-4509-8e1a-eb08f2477ada")
+	)
+	(pad "11" smd rect
+		(at 0.25 -0.75 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3b10e44b-b09c-48e6-8339-15ebb65d1187")
+	)
+	(pad "12" smd rect
+		(at -0.25 -0.75 90)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5e3aba7c-b383-4d6b-9bf1-e794e87e730c")
+	)
+	(embedded_fonts no)
+	(model "${TECHNULGY_KICAD}/KiCad - Libraries/LIS2MDLTR/LIS2MDLTR.3dshapes/LIS2MDLTR.stp"
+		(offset
+			(xyz 0 0 0.999999985)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

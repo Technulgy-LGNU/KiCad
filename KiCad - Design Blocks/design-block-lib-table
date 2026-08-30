@@ -1,0 +1,7 @@
+(design_block_lib_table
+	(version 7)
+	(lib (name "Power") (type "KiCad") (uri "${TECHNULGY_KICAD}/KiCad - Design Blocks/Power.kicad_blocks") (options "") (descr ""))
+	(lib (name "IC") (type "KiCad") (uri "${TECHNULGY_KICAD}/KiCad - Design Blocks/IC.kicad_blocks") (options "") (descr ""))
+	(lib (name "Communication") (type "KiCad") (uri "${TECHNULGY_KICAD}/KiCad - Design Blocks/Communication.kicad_blocks") (options "") (descr ""))
+	(lib (name "Misc") (type "KiCad") (uri "${TECHNULGY_KICAD}/KiCad - Design Blocks/Misc.kicad_blocks") (options "") (descr ""))
+)

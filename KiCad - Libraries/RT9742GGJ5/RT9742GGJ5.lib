@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model RT9742GGJ5
+#/1567804/835698/2.50/5/3/Integrated Circuit
+DEF RT9742GGJ5 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "RT9742GGJ5" 1050 200 50 H V L CNN
+F2 "SOT94P280X100-5N" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/RT9742GGJ5.pdf" 1050 0 50 H I L CNN
+F4 "POWER LOAD SWITCH, HIGH SIDE, TSOT-23-5; Power Load Switch Type:High Side; Input Voltage:6V; Current Limit:1.1A; On State Resistance:0.07ohm; Distribution Switch Case Style:TSOT-23; No. of Pins:5Pins; Thermal Protection:Yes; On / RoHS Compliant: Yes" 1050 -100 50 H I L CNN "Description"
+F5 "1" 1050 -200 50 H I L CNN "Height"
+F6 "835-RT9742GGJ5" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Richtek/RT9742GGJ5?qs=amGC7iS6iy%2FZU2tAnLZxIA%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "RICHTEK" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "RT9742GGJ5" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VOUT 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X ~FLG 3 0 -200 200 R 50 50 0 0 P
+X EN/~EN 4 1200 0 200 L 50 50 0 0 P
+X VIN 5 1200 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RT9742GGJ5
+D POWER LOAD SWITCH, HIGH SIDE, TSOT-23-5; Power Load Switch Type:High Side; Input Voltage:6V; Current Limit:1.1A; On State Resistance:0.07ohm; Distribution Switch Case Style:TSOT-23; No. of Pins:5Pins; Thermal Protection:Yes; On / RoHS Compliant: Yes
+K
+F https://componentsearchengine.com/Datasheets/2/RT9742GGJ5.pdf
+$ENDCMP
+#
+#End Doc Library
