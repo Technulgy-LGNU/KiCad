@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP LIS2MDLTR
-D Digital output magnetic sensor: ultralow-power, high-performance 3-axis magnetometer
-K
-F https://www.st.com/resource/en/datasheet/lis2mdl.pdf
-$ENDCMP
-#
-#End Doc Library
