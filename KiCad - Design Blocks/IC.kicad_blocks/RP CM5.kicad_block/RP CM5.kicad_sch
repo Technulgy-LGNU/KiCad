@@ -15347,12 +15347,6 @@
 		(uuid "84520c5a-d4e5-440c-b528-14586cfa6c12")
 	)
 	(junction
-		(at 321.31 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "847cbf88-a311-4d56-9876-27f69d3a6999")
-	)
-	(junction
 		(at 25.4 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15449,6 +15443,12 @@
 		(uuid "a8751ad0-fc7b-43f0-89cb-7fee71ed5f4d")
 	)
 	(junction
+		(at 321.31 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2a5b022-c3f5-42c4-9892-456b5a04690a")
+	)
+	(junction
 		(at 300.99 355.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15525,12 +15525,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e465d057-e9be-4362-b405-44cdd625b03e")
-	)
-	(junction
-		(at 321.31 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5dfa40a-2b4e-4e48-b717-a583b4fa5112")
 	)
 	(junction
 		(at 25.4 86.36)
@@ -15816,6 +15810,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 85.09) (xy 339.09 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0533c0d1-472e-4fb3-b999-dc109dcbc570")
+	)
+	(wire
+		(pts
 			(xy 250.19 134.62) (xy 250.19 138.43)
 		)
 		(stroke
@@ -15926,7 +15930,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 95.25) (xy 321.31 97.79)
+			(xy 321.31 95.25) (xy 321.31 96.52)
 		)
 		(stroke
 			(width 0)
@@ -15963,6 +15967,16 @@
 			(type default)
 		)
 		(uuid "0bd39303-e82d-4333-bb9d-5c321f7baaca")
+	)
+	(wire
+		(pts
+			(xy 233.68 95.25) (xy 233.68 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3ee26c-07ad-4e69-9095-a53787a9fdfb")
 	)
 	(wire
 		(pts
@@ -16206,7 +16220,17 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 95.25) (xy 349.25 97.79)
+			(xy 321.31 85.09) (xy 321.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ce859a5-55f8-41ea-acf9-7307971d50c4")
+	)
+	(wire
+		(pts
+			(xy 349.25 95.25) (xy 349.25 96.52)
 		)
 		(stroke
 			(width 0)
@@ -16666,23 +16690,13 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 95.25) (xy 339.09 97.79)
+			(xy 339.09 95.25) (xy 339.09 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "36ea9859-dbbb-43cf-aab4-c95962400e39")
-	)
-	(wire
-		(pts
-			(xy 321.31 85.09) (xy 321.31 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37fe83fa-e68c-4f74-bde1-cf8af83bbd03")
 	)
 	(wire
 		(pts
@@ -16973,16 +16987,6 @@
 			(type default)
 		)
 		(uuid "4deaa090-049c-4bed-bb45-103725f394dc")
-	)
-	(wire
-		(pts
-			(xy 321.31 87.63) (xy 321.31 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4decd463-83b3-410c-9c0b-dcd8ddc2ebb8")
 	)
 	(wire
 		(pts
@@ -17386,7 +17390,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 87.63) (xy 314.96 97.79)
+			(xy 314.96 87.63) (xy 314.96 96.52)
 		)
 		(stroke
 			(width 0)
@@ -17813,16 +17817,6 @@
 			(type default)
 		)
 		(uuid "81315f07-aa2b-45cd-a79b-e5b006914ec1")
-	)
-	(wire
-		(pts
-			(xy 321.31 85.09) (xy 339.09 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8172686a-2c45-4f70-9a50-a3cca906bfa6")
 	)
 	(wire
 		(pts
@@ -18333,6 +18327,16 @@
 			(type default)
 		)
 		(uuid "9b1cd798-2e94-4942-8852-a95a128daba9")
+	)
+	(wire
+		(pts
+			(xy 233.68 87.63) (xy 233.68 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b2bdbfd-4cbe-4f34-9491-1d6011a90cde")
 	)
 	(wire
 		(pts
@@ -19306,7 +19310,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 87.63) (xy 273.05 97.79)
+			(xy 273.05 87.63) (xy 273.05 96.52)
 		)
 		(stroke
 			(width 0)
@@ -21710,7 +21714,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 233.68 88.9 0)
+		(at 233.68 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21720,7 +21724,7 @@
 		(dnp no)
 		(uuid "00509fff-fba0-4147-9b5b-342150dd80ba")
 		(property "Reference" "C14"
-			(at 236.728 86.36 0)
+			(at 236.728 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21731,7 +21735,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 236.728 88.392 0)
+			(at 236.728 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21742,7 +21746,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 234.6452 92.71 0)
+			(at 234.6452 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21753,7 +21757,7 @@
 			)
 		)
 		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106KP8NNN"
-			(at 233.68 88.9 0)
+			(at 233.68 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21764,7 +21768,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 233.68 88.9 0)
+			(at 233.68 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21775,7 +21779,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 233.68 88.9 0)
+			(at 233.68 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21786,7 +21790,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
-			(at 233.68 88.9 0)
+			(at 233.68 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21797,7 +21801,7 @@
 			)
 		)
 		(property "Supplier 1" "https://eu.mouser.com/en/ProductDetail/Samsung-Electro-Mechanics/CL10A106KP8NNNC?qs=X6jEic%2FHinAlyfRHj7fKwg%3D%3D"
-			(at 233.68 88.9 0)
+			(at 233.68 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21808,7 +21812,7 @@
 			)
 		)
 		(property "Supplier 2" "https://www.digikey.de/de/products/detail/samsung-electro-mechanics/CL10A106KP8NNNC/3886850?s=N4IgTCBcDaIMIBkCMAGAgqgbAaQAoA4A5YuEAXQF8g"
-			(at 233.68 88.9 0)
+			(at 233.68 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21819,7 +21823,7 @@
 			)
 		)
 		(property "LCSC" "C19702"
-			(at 233.68 88.9 0)
+			(at 233.68 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23143,7 +23147,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 339.09 97.79 0)
+		(at 339.09 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23154,17 +23158,6 @@
 		(fields_autoplaced yes)
 		(uuid "258edadb-c8a3-48a8-a037-b8768671692a")
 		(property "Reference" "#PWR048"
-			(at 339.09 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
 			(at 339.09 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -23175,8 +23168,19 @@
 				)
 			)
 		)
+		(property "Value" "GND"
+			(at 339.09 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" ""
-			(at 339.09 97.79 0)
+			(at 339.09 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23187,7 +23191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 339.09 97.79 0)
+			(at 339.09 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23198,7 +23202,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 339.09 97.79 0)
+			(at 339.09 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23399,7 +23403,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/731/1/FH12_22S_0.5SH_55_CL0586_0532_7_55_2DDrawing_0000987484.pdf"
 			(at 290.83 342.9 0)
 			(hide yes)
 			(show_name no)
@@ -23411,6 +23415,61 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x22, script generated"
+			(at 290.83 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HRS(Hirose)"
+			(at 290.83 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "FH12-22S-0.5SH(55)"
+			(at 290.83 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" "https://eu.mouser.com/en/ProductDetail/Hirose-Connector/FH12-22S-0.5SH55?qs=Ux3WWAnHpjDjN9JNAugKTA%3D%3D"
+			(at 290.83 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2" "https://www.digikey.de/de/products/detail/hirose-electric-co-ltd/FH12-22S-0-5SH-55/1110321?s=N4IgTCBcDaIGIAkCMYC0YwGVUAYB0ArJggQSALoC%2BQA"
+			(at 290.83 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C597981"
 			(at 290.83 342.9 0)
 			(hide yes)
 			(show_name no)
@@ -23727,7 +23786,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 321.31 97.79 0)
+		(at 321.31 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23738,17 +23797,6 @@
 		(fields_autoplaced yes)
 		(uuid "346f5a8d-915b-4daa-a74b-4c3d2ea86dd4")
 		(property "Reference" "#PWR050"
-			(at 321.31 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
 			(at 321.31 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -23759,8 +23807,19 @@
 				)
 			)
 		)
+		(property "Value" "GND"
+			(at 321.31 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" ""
-			(at 321.31 97.79 0)
+			(at 321.31 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23771,7 +23830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 97.79 0)
+			(at 321.31 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23782,7 +23841,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 321.31 97.79 0)
+			(at 321.31 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24422,7 +24481,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 314.96 97.79 0)
+		(at 314.96 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24433,17 +24492,6 @@
 		(fields_autoplaced yes)
 		(uuid "52311fe3-3d60-496f-a82c-6f739755551b")
 		(property "Reference" "#PWR047"
-			(at 314.96 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
 			(at 314.96 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -24454,8 +24502,19 @@
 				)
 			)
 		)
+		(property "Value" "GND"
+			(at 314.96 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" ""
-			(at 314.96 97.79 0)
+			(at 314.96 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24466,7 +24525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 314.96 97.79 0)
+			(at 314.96 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24477,7 +24536,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 314.96 97.79 0)
+			(at 314.96 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25526,7 +25585,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 349.25 97.79 0)
+		(at 349.25 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25537,17 +25596,6 @@
 		(fields_autoplaced yes)
 		(uuid "6a831857-78bd-42e3-a413-28c5b579b398")
 		(property "Reference" "#PWR049"
-			(at 349.25 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
 			(at 349.25 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -25558,8 +25606,19 @@
 				)
 			)
 		)
+		(property "Value" "GND"
+			(at 349.25 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" ""
-			(at 349.25 97.79 0)
+			(at 349.25 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25570,7 +25629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 97.79 0)
+			(at 349.25 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25581,7 +25640,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 349.25 97.79 0)
+			(at 349.25 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25863,7 +25922,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/731/1/FH12_22S_0.5SH_55_CL0586_0532_7_55_2DDrawing_0000987484.pdf"
 			(at 417.83 342.9 0)
 			(hide yes)
 			(show_name no)
@@ -25875,6 +25934,61 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x22, script generated"
+			(at 417.83 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HRS(Hirose)"
+			(at 417.83 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "FH12-22S-0.5SH(55)"
+			(at 417.83 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" "https://eu.mouser.com/en/ProductDetail/Hirose-Connector/FH12-22S-0.5SH55?qs=Ux3WWAnHpjDjN9JNAugKTA%3D%3D"
+			(at 417.83 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2" "https://www.digikey.de/de/products/detail/hirose-electric-co-ltd/FH12-22S-0-5SH-55/1110321?s=N4IgTCBcDaIGIAkCMYC0YwGVUAYB0ArJggQSALoC%2BQA"
+			(at 417.83 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C597981"
 			(at 417.83 342.9 0)
 			(hide yes)
 			(show_name no)
@@ -28127,7 +28241,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "15kR"
 			(at 307.34 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28137,7 +28251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 307.34 89.408 90)
 			(hide yes)
 			(show_name no)
@@ -28148,7 +28262,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.royalohm.com/assets/pdf/products/smd/1.pdf"
 			(at 307.34 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -28161,6 +28275,61 @@
 		)
 		(property "Description" "Resistor"
 			(at 307.34 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 307.34 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0603WAF1502T5E"
+			(at 307.34 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" "https://eu.mouser.com/en/ProductDetail/Royalohm/0603WAF1502T5E?qs=e8oIoAS2J1TQCI6cwgMKhg%3D%3D"
+			(at 307.34 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2" ""
+			(at 307.34 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22809"
+			(at 307.34 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30083,7 +30252,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 97.79 0)
+		(at 273.05 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30094,17 +30263,6 @@
 		(fields_autoplaced yes)
 		(uuid "d977162b-3912-4c4b-a19b-67e8078291ad")
 		(property "Reference" "#PWR045"
-			(at 273.05 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
 			(at 273.05 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -30115,8 +30273,19 @@
 				)
 			)
 		)
+		(property "Value" "GND"
+			(at 273.05 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" ""
-			(at 273.05 97.79 0)
+			(at 273.05 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30127,7 +30296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 97.79 0)
+			(at 273.05 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30138,7 +30307,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 97.79 0)
+			(at 273.05 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31807,6 +31976,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 233.68 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecc1b519-e6fe-4b61-a521-596046ab6372")
+		(property "Reference" "#PWR060"
+			(at 233.68 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d31311e6-b2aa-4ee5-adf8-b1e4a2095f15")
+		)
+		(instances
+			(project "KiCad - Circuits"
+				(path "/6b4ded73-d95f-478b-b53d-897148cc3f70"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 90.17 356.87 0)
 		(unit 1)
 		(body_style 1)
@@ -31916,7 +32164,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RaspberryPi_CM5:CONN_503398-1892_MOL"
 			(at 266.7 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -31927,7 +32175,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/5033981892?display=pdf&utm_source=M2X&utm_medium=api&utm_campaign=api&utm_id=M2X_API?utm_source=M2X&utm_medium=api&utm_campaign=api&utm_id=M2X_API"
 			(at 237.49 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -31939,6 +32187,61 @@
 			)
 		)
 		(property "Description" "Micro SD Card Socket"
+			(at 237.49 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 237.49 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "503398-1892"
+			(at 237.49 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" "https://eu.mouser.com/en/ProductDetail/Molex/503398-1892?qs=b0v8CoHHvSMxV%252BW12iKaSg%3D%3D"
+			(at 237.49 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2" "https://www.digikey.de/de/products/detail/molex/5033981892/4555393?s=N4IgTCBcDaIKwAYDMSCcAOAtARnaiAugL5A"
+			(at 237.49 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C428492"
 			(at 237.49 264.16 0)
 			(hide yes)
 			(show_name no)

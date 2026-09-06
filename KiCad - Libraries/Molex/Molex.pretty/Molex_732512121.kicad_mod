@@ -1,0 +1,143 @@
+(footprint "Molex_732512121"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 1.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e6e11a45-4446-4f98-b7c6-40856f849bc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Molex_732512121"
+		(at 0 3.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a3681751-b276-4911-9d94-6752d7e3e4bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5807a157-0651-454f-8853-efa58bc17bd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b07125e4-c3b2-4dac-a1f0-d105c8c7882d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fa5f7630-7c51-4ef6-9868-6d40cc9cbfbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" connect rect
+		(at -3.4925 0)
+		(size 2.665 4.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "2229406f-8a41-4e42-8bc4-56c74f486d19")
+	)
+	(pad "2" connect rect
+		(at 3.4925 0)
+		(size 2.665 4.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ebddb1ad-7a75-413d-9150-919c3139dc25")
+	)
+	(pad "3" connect rect
+		(at -3.4925 0)
+		(size 2.665 4.2)
+		(layers "F.Mask" "B.Cu")
+		(uuid "5147c784-6d59-474a-a30c-64e2bb59028a")
+	)
+	(pad "4" connect rect
+		(at 3.4925 0)
+		(size 2.665 4.2)
+		(layers "F.Mask" "B.Cu")
+		(uuid "f9b8d468-c1a0-443b-ad32-8ad1e16583d6")
+	)
+	(pad "5" connect rect
+		(at 0 0)
+		(size 1.78 4.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ee178337-7051-4b38-a6bd-559e4c77ccc1")
+	)
+	(zone
+		(layer "F.SilkS")
+		(uuid "da720ae4-4bac-43cc-af76-32e45f893213")
+		(name "keep clean")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -5.05 2.35) (xy 5.1 2.35) (xy 5.1 -2.25) (xy -5.05 -2.25)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${TECHNULGY_KICAD}/KiCad - Libraries/Molex/Molex.3dshapes/73251-2121.stp"
+		(offset
+			(xyz 0 15.5 0.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -180)
+		)
+	)
+)
