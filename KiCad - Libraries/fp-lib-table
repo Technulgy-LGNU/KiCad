@@ -14,4 +14,5 @@
 	(lib (name "TDK") (type "KiCad") (uri "${TECHNULGY_KICAD}/KiCad - Libraries/TDK/TDK.pretty") (options "") (descr ""))
 	(lib (name "InfineonTechnologies") (type "KiCad") (uri "${TECHNULGY_KICAD}/KiCad - Libraries/InfineonTechnologies/InfineonTechnologies.pretty") (options "") (descr ""))
 	(lib (name "Onsemi") (type "KiCad") (uri "${TECHNULGY_KICAD}/KiCad - Libraries/Onsemi/Onsemi.pretty") (options "") (descr ""))
+	(lib (name "E-Switch") (type "KiCad") (uri "${TECHNULGY_KICAD}/KiCad - Libraries/E-Switch/E-Switch.pretty") (options "") (descr ""))
 )
