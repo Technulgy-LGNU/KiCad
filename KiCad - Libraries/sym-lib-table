@@ -4,7 +4,6 @@
 	(lib (name "RCJ Communication Module") (type "KiCad") (uri "${TECHNULGY_KICAD}/KiCad - Libraries/RCJ Communication Module/RCJ-COM 2024.kicad_sym") (options "") (descr ""))
 	(lib (name "RaspberryPi_CM5") (type "KiCad") (uri "${TECHNULGY_KICAD}/KiCad - Libraries/RaspberryPi_CM5/RaspberryPi_CM5.kicad_sym") (options "") (descr ""))
 	(lib (name "RT9742GGJ5") (type "KiCad") (uri "${TECHNULGY_KICAD}/KiCad - Libraries/RT9742GGJ5/RT9742GGJ5.kicad_sym") (options "") (descr ""))
-	(lib (name "MagJack-A70-112-331N126") (type "KiCad") (uri "/home/eb/Nextcloud2/technulgy/Electrical - Templates & Parts/KiCad - Libraries/MagJack-A70-112-331N126/MagJack-A70-112-331N126.kicad_sym") (options "") (descr ""))
 	(lib (name "Qorvo") (type "KiCad") (uri "${TECHNULGY_KICAD}/KiCad - Libraries/Qorvo/Qorvo.kicad_sym") (options "") (descr ""))
 	(lib (name "Molex") (type "KiCad") (uri "${TECHNULGY_KICAD}/KiCad - Libraries/Molex/Molex.kicad_sym") (options "") (descr ""))
 	(lib (name "STMicroelectronics") (type "KiCad") (uri "${TECHNULGY_KICAD}/KiCad - Libraries/STMicroelectronics/STMicroelectronics.kicad_sym") (options "") (descr ""))
