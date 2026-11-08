@@ -12,4 +12,5 @@
 	(lib (name "PJRC") (type "KiCad") (uri "${TECHNULGY_KICAD}/KiCad - Libraries/PJRC/PJRC.pretty") (options "") (descr ""))
 	(lib (name "TexasInstruments") (type "KiCad") (uri "${TECHNULGY_KICAD}/KiCad - Libraries/TexasInstruments/TexasInstruments.pretty") (options "") (descr ""))
 	(lib (name "TDK") (type "KiCad") (uri "${TECHNULGY_KICAD}/KiCad - Libraries/TDK/TDK.pretty") (options "") (descr ""))
+	(lib (name "InfineonTechnologies") (type "KiCad") (uri "${TECHNULGY_KICAD}/KiCad - Libraries/InfineonTechnologies/InfineonTechnologies.pretty") (options "") (descr ""))
 )
