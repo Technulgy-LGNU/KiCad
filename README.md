@@ -45,15 +45,20 @@ results.
 
 | Company library | Sublibrary / component | Symbol | Footprint | 3D model | WIP | Finished | Tested | Notes |
 | --- | --- | :---: | :---: | :---: | :---: | :---: | :---: | --- |
+| `AnalogDevices` | `LT3751EFE` | Yes | Yes | Yes | [x] | [ ] | [ ] | Footprint is named `SOP65P640X120-21N` |
 | `AnalogDevices` | `LT8638S` | Yes | Yes | Yes | [ ] | [x] | [ ] | |
 | `BNO055` | `BNO055` | Yes | Yes | Yes | [ ] | [x] | [x] | |
 | `DiodesIncorperated` | `AP22653W6` | Yes | No | No | [ ] | [x] | [ ] | Linked with generic footprint and 3D model; symbol is currently named `AP2553W6` |
+| `E-Switch` | `500SSP1S4M6QEA` | Yes | Yes | Yes | [x] | [ ] | [ ] | Symbol is named `500ssp2`; footprint is not assigned in the symbol; 3D-model path is relative |
+| `InfineonTechnologies` | `IFX9201SG` | Yes | Yes | Yes | [x] | [ ] | [ ] | Footprint is named `PG-DSO-12-17` |
 | `MagJack-A70-112-331N126` | `MagJack-A70-112-331N126` | Yes | Yes | Yes | [ ] | [x] | [ ] | |
 | `Maxon` | `MAXON_ESCON24/2` | Yes | Yes | Yes | [ ] | [x] | [x] | Includes models with and without headers |
 | `Molex` | `203560-0503` | Yes | Yes | Yes | [ ] | [x] | [x] | |
 | `Molex` | `52745-1496` | Yes | Yes | Yes | [ ] | [x] | [ ] | |
 | `Molex` | `73251-2121` | Yes | Yes | Yes | [ ] | [x] | [ ] | |
-| `PJRC` | `TEENSY_4.1` | Yes | Yes | Yes | [ ] | [x] | [x] | 3D model includes headers |
+| `Onsemi` | `FDD86367-F085` | Yes | Yes | Yes | [x] | [ ] | [ ] | Footprint is named `TO-252-3` |
+| `PJRC` | `Teensy_4.0` | Yes | Yes | Yes | [ ] | [x] | [ ] | Footprint is named `TEENSY_4.0`; 3D model includes headers |
+| `PJRC` | `TEENSY_4.1` | Yes | Yes | Yes | [ ] | [x] | [x] | Updated symbol and footprint; 3D model includes headers and is now named `Teensy_4.1_(With Headers).stp` |
 | `Qorvo` | `ACT88329` | Yes | Yes | Yes | [x] | [ ] | [ ] | |
 | `Qorvo` | `QM35825` | Yes | Yes | Yes | [x] | [ ] | [ ] | |
 | `RaspberryPi_CM5` | `CM5_J1`, `CM5_J2` | Yes | Yes | Yes | [ ] | [ ] | [ ] | Two CM5 connector symbols and footprints |
